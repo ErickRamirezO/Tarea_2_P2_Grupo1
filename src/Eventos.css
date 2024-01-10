@@ -1,0 +1,81 @@
+/* Estilos generales para el formulario */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.div1,
+.divForm {
+    border-radius: 20px;
+    margin: auto;
+    
+    overflow: hidden;
+}
+
+.div1 {
+    background: #f4f4f4;
+    flex: 1 0 calc(300px - 20px);
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.divForm {
+    
+    color: #fff; /* Color de texto blanco */
+    flex: 1 0 calc(300px - 20px);
+    width:50%;
+    
+  display:flex;
+}
+
+/* Estilos específicos del formulario */
+.divForm form {
+  background:linear-gradient(to right, #ff6a00, #ee0979);
+    margin:auto;
+  width:100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom:10px;
+
+}
+
+label {
+    display: block;
+    margin-bottom:5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100% !important;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71; /* Color verde */
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #27ae60; /* Cambia el color al pasar el mouse */
+}
+
+@media screen and (min-width: 768px) {
+    .div1,
+    .divForm {
+        flex: 1;
+    }
+}
