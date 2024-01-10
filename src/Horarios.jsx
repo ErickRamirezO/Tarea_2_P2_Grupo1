@@ -39,7 +39,7 @@ export default function Horarios() {
       <div className="portada-horarios">
 
       </div>
-      <div className="contenedor-informacion">
+      <div className="contenedor-informacion contenedor-hor">
           <div>
               <table>
                   <tr>

@@ -77,8 +77,6 @@
 .menu:hover .submenu {
   display: block;
 }
-
-
 .portada-zoo{
   height:500px !important;
 }
@@ -227,6 +225,24 @@
     width:100%;
     font-size:15px;
   }
+  .contenedor-informacion{
+    width:100%;
+    margin-top:5px;
+    
+  }
+  .contenedor-informacion > div{
+   
+    width:45%;
+  }
+  .portada-zoo{
+    width:100px;
+    height:100%!important;
+
+
+  }
+  
+  
+
   
 }
 
@@ -260,7 +276,7 @@
     text-align: center;
   }
   .contenedor-informacion{
-    margin-top:30px;
+    margin-top:40px;
   }
   ul{
     position: fixed;
@@ -308,4 +324,23 @@
     height:200px;
 
   }
+  .portada-horarios, .portada2{
+     height:200px;
+  }
+  .contenedor-informacion table{
+    font-size: 15px;
+  }
+  
+  .contenedor-informacion > div img{
+    
+    margin:auto;
+    width:90%;
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90%;
+    border-radius:15px;
+  }
+  
 }

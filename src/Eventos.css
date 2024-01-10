@@ -79,3 +79,9 @@ input[type="submit"]:hover {
         flex: 1;
     }
 }
+
+@media (max-width:600px){
+  .divForm{
+    width:100%;
+  }
+}
